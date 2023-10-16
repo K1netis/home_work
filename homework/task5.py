@@ -4,7 +4,7 @@ day = 1
 dist = x  
 
 while dist < y:
-    dist += dist * 1.12  
+    dist += dist * 1.12  1
     day += 1
 
 print(f"Номер дня, на который пробег составит не менее {y} километров: {day}")
