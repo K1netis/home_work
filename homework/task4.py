@@ -2,7 +2,7 @@ n = int(input("Введите максимальный номер карты: ")
 lst = []
 missing_card = 0
 
-for i in range(n - 5):
+for _ in range(n - 5):
     a = int(input("Введите число: "))
     if a >= 5 and a not in lst:
         lst.append(a)
